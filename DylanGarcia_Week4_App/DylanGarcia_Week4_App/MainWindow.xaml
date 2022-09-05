@@ -1,0 +1,17 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DylanGarcia_Week4_App"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstItems" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,638,217"/>
+        <Button x:Name="btnA" Content="Use Health Pack" HorizontalAlignment="Left" Margin="181,74,0,0" VerticalAlignment="Top" Height="79" Width="113"/>
+        <Label x:Name="lblMessage" Content="" HorizontalAlignment="Left" Margin="181,10,0,0" VerticalAlignment="Top" Width="594" Height="42"/>
+        <Button x:Name="btnB" Content="Discard Empty &#xD;&#xA;Health Packs" HorizontalAlignment="Left" Margin="316,74,0,0" VerticalAlignment="Top" Height="79" Width="113"/>
+        <ProgressBar x:Name="pbHealth" HorizontalAlignment="Left" Height="25" Margin="10,222,0,0" VerticalAlignment="Top" Width="152" Foreground="#FFB00E06"/>
+
+    </Grid>
+</Window>
